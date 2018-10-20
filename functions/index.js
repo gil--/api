@@ -3,7 +3,6 @@
 
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
-//const firebaseHelper = require('firebase-functions-helper');
 admin.initializeApp(functions.config().firebase);
 const db = admin.firestore();
 const settings = {/* your settings... */ timestampsInSnapshots: true };
